@@ -24,7 +24,7 @@ public class Arrays {
 		}
 		
 		return array;
-	}
+	} 
 	
 	/**
 	 * Metodo que recibe un array y lo imprime.
