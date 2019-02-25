@@ -19,7 +19,7 @@ public class Array2 {
 		
 		return array;
 	}
-	
+	asda
 	/**
 	 * Método que recibe un array y lo imprime.
 	 * @author Maria
