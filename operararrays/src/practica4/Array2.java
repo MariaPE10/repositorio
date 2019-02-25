@@ -19,7 +19,7 @@ public class Array2 {
 		
 		return array;
 	}
-	asda
+	
 	/**
 	 * Método que recibe un array y lo imprime.
 	 * @author Maria
@@ -93,5 +93,6 @@ public class Array2 {
         System.out.println("La suma de los numeros pares es: " + sumaPar);
         System.out.println("La suma de los numeros impares es: " + sumaImpar);
     }
+    // https://github.com/MariaPE10/repositorio.git
 }
 
