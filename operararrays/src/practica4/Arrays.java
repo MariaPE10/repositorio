@@ -25,12 +25,12 @@ public class Arrays {
 		
 		return array;
 	} 
-	
+	 
 	/**
 	 * Metodo que recibe un array y lo imprime.
 	 * @param array
 	 */
-	public static void imprimeArray(int array[]) {
+	public static void imprimirArray(int array[]) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.print(array[i] + "  ");
 		}
