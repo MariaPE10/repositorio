@@ -17,10 +17,6 @@ public class Arrays {
 			array[i]= (int)Math.round(Math.random()* (maximo-minimo) +  minimo);
 		}
 		
-		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + "  ");
-		}
-		
 		return array;
 
 	} 
@@ -35,10 +31,6 @@ public class Arrays {
 		}
 	}
 
-	public static void main(String[] args) {
-		rellenarArray(10, 1, 20);
-		
-	}
 	
 	/**
 	 * Método que devuelve la suma de los valores de un array que recibe como parámetro.
@@ -52,8 +44,20 @@ public class Arrays {
         for (int i = 1; i<array.length; i++) {
             suma+=array[i];
         }
-        
+  
         return suma;
 	}
-//github.com/MariaPE10/repositorio.git
+	
+	/**
+	 * Método main que hace uso de todos los métodos de la clase.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int array[];
+		array = rellenarArray(10, 1, 20);
+		imprimirArray(array);
+		int suma = sumaArray(array);
+		System.out.println("La suma de los valores del array es:" + suma);
+	}
+
 }
