@@ -22,6 +22,17 @@ public class Arrays {
 		}
 		
 		return array;
+
+	} 
+	 
+	/**
+	 * Metodo que recibe un array y lo imprime.
+	 * @param array
+	 */
+	public static void imprimirArray(int array[]) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + "  ");
+		}
 	}
 
 	public static void main(String[] args) {
@@ -29,5 +40,20 @@ public class Arrays {
 		
 	}
 	
-	
+	/**
+	 * Método que devuelve la suma de los valores de un array que recibe como parámetro.
+	 * @author Maria
+	 * @param array
+	 * @return
+	 */
+	public static int sumaArray(int array[]) {
+        int suma = array[0];
+        
+        for (int i = 1; i<array.length; i++) {
+            suma+=array[i];
+        }
+        
+        return suma;
+	}
+//github.com/MariaPE10/repositorio.git
 }

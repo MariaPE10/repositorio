@@ -93,6 +93,8 @@ public class Array2 {
         System.out.println("La suma de los numeros pares es: " + sumaPar);
         System.out.println("La suma de los numeros impares es: " + sumaImpar);
     }
+
  // https://github.com/MariaPE10/repositorio.git
+
 }
 
