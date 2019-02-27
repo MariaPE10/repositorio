@@ -49,6 +49,32 @@ public class Arrays {
 	}
 	
 	/**
+	 * Método que recibe un array como parámetro y averigua el valor menor y mayor de dicho array.
+	 * Y los imprime en pantalla.
+	 * @author Maria
+	 * @param array
+	 */
+	public static void menor_MayorArray(int array[]) {
+        int mayor, menor; 
+        
+        mayor = array[0];
+        menor = array[0];
+
+        for (int i = 1; i<array.length; i++) {
+            if (array[i] > mayor) {
+                mayor = array[i];
+            }
+            if (array[i] < menor) {
+                menor = array[i];
+            }
+        }
+        
+        System.out.println("El valor menor es: " + menor);
+        System.out.println("El valor mayor es: " + mayor);
+        
+	}
+	
+	/**
 	 * Método que recibe un array como parámetro y suma los valores pares e impares de dicho array.
 	 * Y los imprime en pantalla.
 	 * @param array
@@ -68,7 +94,7 @@ public class Arrays {
         System.out.println("La suma de los numeros pares es: " + sumaPar);
         System.out.println("La suma de los numeros impares es: " + sumaImpar);
     }
-	
+    
 	/**
 	 * Método main que hace uso de todos los métodos de la clase.
 	 * @param args
