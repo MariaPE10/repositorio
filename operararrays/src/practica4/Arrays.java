@@ -1,15 +1,13 @@
 package practica4;
 
-
 public class Arrays {
 
 	/**
-	 * Método que crea un array con la longitud que le especifique el usuario y lo rellena con valores entre los dos límites,
-	 * también indicados por el usuario.
+	 * Método que crea un array entre un máximo y un mínimo. Y una longitud que le especifiquemos.
 	 * @author Maria
-	 * @param longitud: longitud del array.
-	 * @param minimo: valor mínimo que podrá tomar nuestro array.
-	 * @param maximo: valor máximo que podrá tomar nuestro array.
+	 * @param longitud: extensión del array.
+	 * @param minimo: valor mínimo que pueden tener los valores del array.
+	 * @param maximo: valor máximo que pueden tener los valores del array.
 	 * @return
 	 */
 	public static int[] rellenarArray(int longitud, int minimo, int maximo) {
@@ -24,15 +22,10 @@ public class Arrays {
 		}
 		
 		return array;
-	} 
-	
-	/**
-	 * Metodo que recibe un array y lo imprime.
-	 * @param array
-	 */
-	public static void imprimeArray(int array[]) {
-		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + "  ");
-		}
+	}
+
+	public static void main(String[] args) {
+		rellenarArray(10, 1, 20);
+		
 	}
 }
