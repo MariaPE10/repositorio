@@ -49,6 +49,27 @@ public class Arrays {
 	}
 	
 	/**
+	 * Método que recibe un array como parámetro y suma los valores pares e impares de dicho array.
+	 * Y los imprime en pantalla.
+	 * @param array
+	 */
+    public static void par_ImparArray(int array[]) {    
+        int sumaPar = 0, sumaImpar = 0;
+        
+        for (int i = 0; i< array.length; i++) {
+            if (array[i] % 2 == 0) { //es par
+                sumaPar += array[i];
+            }
+            else { //es impar
+                sumaImpar += array[i];
+            }
+        }
+        
+        System.out.println("La suma de los numeros pares es: " + sumaPar);
+        System.out.println("La suma de los numeros impares es: " + sumaImpar);
+    }
+	
+	/**
 	 * Método main que hace uso de todos los métodos de la clase.
 	 * @param args
 	 */
