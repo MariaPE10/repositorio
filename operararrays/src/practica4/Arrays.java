@@ -35,4 +35,20 @@ public class Arrays {
 			System.out.print(array[i] + "  ");
 		}
 	}
+	
+	/**
+	 * Método que devuelve la suma de los valores de un array que recibe como parámetro.
+	 * @author Maria
+	 * @param array
+	 * @return
+	 */
+	public static int sumaArray(int array[]) {
+        int suma = array[0];
+        
+        for (int i = 1; i<array.length; i++) {
+            suma+=array[i];
+        }
+        
+        return suma;
+	}
 }
