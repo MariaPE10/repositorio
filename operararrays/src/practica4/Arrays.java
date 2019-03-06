@@ -23,6 +23,7 @@ public class Arrays {
 	 
 	/**
 	 * Metodo que recibe un array y lo imprime.
+	 * @author Maria
 	 * @param array
 	 */
 	public static void imprimirArray(int array[]) {
@@ -77,6 +78,7 @@ public class Arrays {
 	/**
 	 * Método que recibe un array como parámetro y suma los valores pares e impares de dicho array.
 	 * Y los imprime en pantalla.
+	 * @author Maria
 	 * @param array
 	 */
     public static void par_ImparArray(int array[]) {    
@@ -97,6 +99,7 @@ public class Arrays {
     
 	/**
 	 * Método main que hace uso de todos los métodos de la clase.
+	 * @author Maria
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -105,6 +108,8 @@ public class Arrays {
 		imprimirArray(array);
 		int suma = sumaArray(array);
 		System.out.println("La suma de los valores del array es:" + suma);
+		menor_MayorArray(array);
+		par_ImparArray(array);
 	}
 
 }
