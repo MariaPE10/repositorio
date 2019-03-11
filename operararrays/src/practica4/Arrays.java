@@ -22,9 +22,9 @@ public class Arrays {
 	} 
 	 
 	/**
-	 * Metodo que recibe un array y lo imprime.
+	 * Metodo que recibe un array y lo imprime en la consola.
 	 * @author Maria
-	 * @param array
+	 * @param array: array que recibe como parámetro.
 	 */
 	public static void imprimirArray(int array[]) {
 		for (int i = 0; i < array.length; i++) {
@@ -36,7 +36,7 @@ public class Arrays {
 	/**
 	 * Método que devuelve la suma de los valores de un array que recibe como parámetro.
 	 * @author Maria
-	 * @param array
+	 * @param array: array que recibe como parámetro.
 	 * @return
 	 */
 	public static int sumaArray(int array[]) {
@@ -51,9 +51,9 @@ public class Arrays {
 	
 	/**
 	 * Método que recibe un array como parámetro y averigua el valor menor y mayor de dicho array.
-	 * Y los imprime en pantalla.
+	 * Y los imprime en la consola.
 	 * @author Maria
-	 * @param array
+	 * @param array: array que recibe como parámetro.
 	 */
 	public static void menor_MayorArray(int array[]) {
         int mayor, menor; 
@@ -77,9 +77,9 @@ public class Arrays {
 	
 	/**
 	 * Método que recibe un array como parámetro y suma los valores pares e impares de dicho array.
-	 * Y los imprime en pantalla.
+	 * Y los imprime en la consola.
 	 * @author Maria
-	 * @param array
+	 * @param array: array que recibe como parámetro.
 	 */
     public static void par_ImparArray(int array[]) {    
         int sumaPar = 0, sumaImpar = 0;
